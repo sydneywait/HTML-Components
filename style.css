@@ -1,0 +1,30 @@
+.miller{
+    background: lightblue;
+    
+}
+
+.miller-info{}
+.miller-info_name {}
+
+.miller-info_pic {
+    width: 20%;
+
+}
+
+.miller-info_district {}
+
+.miller-info_party{
+    color: red;
+
+}
+
+.miller-committee {}
+
+.miller-legislation {
+    color: yellow;
+
+}
+
+.miller-legislation a {
+    color: green;
+}
