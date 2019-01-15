@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <title>Carol Miller Example</title>
 
 
 <!-- You're going to create an HTML component to represent a political candidate. Specifically, the representative of your Congressional district. Visit the GovTrack site link below, enter in your home address, and you'll find basic information about your representative.
@@ -21,23 +23,23 @@ GovTrack - Congressional District Map-->
 4 The last component will hold links to any legislation that your representative has enacted.
 Make sure you use good BEM-style class names for each element in your components. Put a comment above each component explaining what it is. --> 
 
+
 <article class = "miller" >
 <!-- This is the personal info section for rep Carol Miller -->
     <section class = "miller-info">
     <!-- This gives her name    -->
-        <h2 class = "miller-info_name">Carol Miller</h2>
+        <h1 class = "miller-info_name">Carol Miller</h1>
     <!-- This is her picture -->
         <img src="miller.jpg" class = "miller-info_pic" alt="Carol Miller">
     <!--This tells her distric info  -->
         <h3 class = "miller-info_district">Representative for West Virginia's 3rd Congressional District</h3>
     <!-- This tells her party affiliation -->
-        <h4 class = "miller-info_party">Republican</h4>
+        <h4 class = "miller-info_party">REPUBLICAN</h4>
     </section>
 
     <!-- This section is to list the committees on which she serves -->
-        <section class = "miller-committee"></section>
-        <p>Carol Miller has served on the following committees:</p>
-        <ul>                
+    <section class = "miller-committee">
+          <ul><h3> Committees:</h3>              
             <li>Agriculture and Natural Resources</li>
             <li>Finance</li>
             <li>Rules</li>
@@ -48,6 +50,7 @@ Make sure you use good BEM-style class names for each element in your components
     <!-- This section is to show any legislation she has enacted -->
         <section class = "miller-legislation">
     <!-- links to the legislation -->
+        <ul><h3>Sponsored Legislation:</h3>
            <li><a href="https://www.billtrack50.com/BillDetail/1014007" class = "miller-info_legislation_links">WV HB2397: Requiring county school boards to provide adequate mental health and counseling services
             </a></li>
            <li><a href="https://www.billtrack50.com/BillDetail/1013999" class = "miller-info_legislation_links">WV HB2382: Making it a misdemeanor for a person to knowingly allow a felony drug offense to be committed on his or her property </a>
@@ -57,7 +60,7 @@ Make sure you use good BEM-style class names for each element in your components
              <li><a href="https://www.billtrack50.com/BillDetail/1012471" class = "miller-info_legislation_links">WV HB2321: Allowing workers’ compensation benefits for first responders diagnosed with post-traumatic stress disorder</a></li>
              <li><a href="https://www.billtrack50.com/BillDetail/1012283" class = "miller-info_legislation_links">WV HB2336:  Relating to the state’s Medicaid Home and Community-Based Services Intellectual/Developmental Disability Waiver</a></li>
              <li><a href="https://ballotpedia.org/Carol_Miller_(West_Virginia)#Sponsored_legislation" class = "miller-info_legislation_links">and more ...</a></li>
-
+             </ul>
             
 
         </section>

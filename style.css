@@ -1,30 +1,80 @@
 .miller{
-    background: lightblue;
+    background:royalblue;
+    display: flex;
+    align-content: space-between;
+}
+
+.miller-info{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 25px;
+    margin-right: 1em;
+    margin-left:1em;
+    background:#910202;
+    
+}
+.miller-info_name {
+    align-self: center;
+    font-size: 4em;
+    font-family: 'Staatliches', cursive;
+}
+
+.miller-info_pic {
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px;
+
+}
+
+.miller-info_district {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.miller-info_party{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.miller-committee {
+    border: 2px solid black;
+    border-radius: 25px;
+    background: white;
+    color: royalblue;
+    margin-right: 1em;
+    padding-right: 1em;
+    font-family: 'Montserrat', sans-serif;
     
 }
 
-.miller-info{}
-.miller-info_name {}
-
-.miller-info_pic {
-    width: 20%;
-
-}
-
-.miller-info_district {}
-
-.miller-info_party{
-    color: red;
-
-}
-
-.miller-committee {}
-
 .miller-legislation {
-    color: yellow;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-right: 1em;
+    width: 50%;
+    background: #0442a5;
+    margin-right: 1em;
+    font-family: 'Montserrat', sans-serif;
+    
+    
 
+}
+
+.miller-legislation li {
+list-style-position: outside;
+color: white;
 }
 
 .miller-legislation a {
-    color: green;
+    color: white;
+
+}
+.miller-legislation h3 {
+    text-align: left;
+    color: white
+
 }
